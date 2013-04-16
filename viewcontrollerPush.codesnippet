@@ -3,24 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dispatchMain</string>
+	<string>viewcontrollerPush</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>dispatch_async(dispatch_get_main_queue(), ^(void) {
-    &lt;#code#&gt;
-});
-});</string>
+	<string>&lt;#controller#&gt; *vc = [[&lt;#controller#&gt; alloc] init];
+[self.navigationController pushViewController:vc animated:YES];
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>dispatchMain</string>
+	<string>viewcontrollerPush</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Dispatch a code block to the main thread</string>
+	<string>Instantiate a new view controller and push it into the navigation stack</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Dispatch to Main Thread</string>
+	<string>ViewController init and push</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

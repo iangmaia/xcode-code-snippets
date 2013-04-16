@@ -3,24 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dispatchMain</string>
+	<string>externString</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>dispatch_async(dispatch_get_main_queue(), ^(void) {
-    &lt;#code#&gt;
-});
-});</string>
+	<string>extern NSString *const k&lt;#constName#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>dispatchMain</string>
+	<string>externString</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Dispatch a code block to the main thread</string>
+	<string>External NSString constant declaration</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Dispatch to Main Thread</string>
+	<string>Constant string external</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
