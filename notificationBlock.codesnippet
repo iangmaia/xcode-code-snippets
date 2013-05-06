@@ -9,9 +9,9 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>__block id notificationObserver = [[NSNotificationCenter defaultCenter] addObserverForName:￼ object:nil queue:nil usingBlock:^(NSNotification *note) {
-    ￼
-    notificationObserver = nil;
+	<string>__block id notifObs = [[NSNotificationCenter defaultCenter] addObserverForName:￼&lt;#name#&gt; object:nil queue:nil usingBlock:^(NSNotification *note) {
+    [[NSNotificationCenter defaultCenter] removeObserver:notifObs];
+    notifObs = nil;
 }];
 </string>
 	<key>IDECodeSnippetIdentifier</key>
