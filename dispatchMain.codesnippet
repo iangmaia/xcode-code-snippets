@@ -12,7 +12,7 @@
 	<string>dispatch_async(dispatch_get_main_queue(), ^(void) {
     &lt;#code#&gt;
 });
-});</string>
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>dispatchMain</string>
 	<key>IDECodeSnippetLanguage</key>
